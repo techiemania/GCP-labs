@@ -48,7 +48,7 @@ kubectl get service
 . add_ip.sh  
 
 
-kubectl apply -f https://github.com/jetstack/cert-mana...
+kubectl apply -f https://github.com/jetstack/cert-manager/releases/download/v1.2.0/cert-manager.yaml
 
 kubectl create clusterrolebinding cluster-admin-binding \
    --clusterrole=cluster-admin \
